@@ -1,0 +1,26 @@
+{
+  "skill_name": "skill-creator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I want to make a skill that turns messy meeting notes into a clean action list and follow-up email. Can you help me build it?",
+      "expected_output": "The skill creator should capture intent, ask only necessary gaps, draft a plausible SKILL.md structure, and propose starter eval prompts.",
+      "files": [],
+      "expectations": []
+    },
+    {
+      "id": 2,
+      "prompt": "Here is my existing SKILL.md. It works sometimes but misses obvious trigger cases. Audit it and improve the description.",
+      "expected_output": "The skill creator should move into improvement mode, preserve the skill name, inspect trigger behaviour, propose trigger evals, and revise the description rather than restarting from scratch.",
+      "files": [] ,
+      "expectations": []
+    },
+    {
+      "id": 3,
+      "prompt": "No full benchmark, just vibe with me and make this skill less clunky.",
+      "expected_output": "The skill creator should use a lighter workflow, clearly label that this is not full validation, and still make practical improvements.",
+      "files": [],
+      "expectations": []
+    }
+  ]
+}
